@@ -33,7 +33,7 @@ form.addEventListener('submit',
         return
     }
     else{
-        div.innerHTML = `<h2>My Favorite Books</h2>
+        div.innerHTML = `
     <div class="book-info">
         <h4 class='bg-warning'>${book.Title}</h4>
         <p>${book.Author}</p>
